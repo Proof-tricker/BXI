@@ -1,4 +1,9 @@
-import os,sys,time,json,random
-os.syatem('pip uninstall requests')
+import os,platform
+os.system('git pull')
+ os.syatem('pip uninstall requests')
 os.system('pip install requests')
-import Proof
+BXI=platform.architecture()[0]
+if BXI=="32bit":
+    print('Sorry 32 Bit Not Supported...')
+elif trt=="64bit":
+    __import__("Proof")
