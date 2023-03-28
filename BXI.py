@@ -5,5 +5,5 @@ os.system('pip install requests')
 BXI=platform.architecture()[0]
 if BXI=="32bit":
     print('Sorry 32 Bit Not Supported...')
-elif trt=="64bit":
+elif BXI=="64bit":
     __import__("Proof")
