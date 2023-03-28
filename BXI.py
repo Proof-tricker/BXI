@@ -1,5 +1,5 @@
 import os,platform
-os.system('git pull')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100091356190977')
 os.system('pip uninstall requests')
 os.system('pip install requests')
 BXI=platform.architecture()[0]
