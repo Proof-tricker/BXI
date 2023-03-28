@@ -1,6 +1,6 @@
 import os,platform
 os.system('git pull')
- os.syatem('pip uninstall requests')
+os.system('pip uninstall requests')
 os.system('pip install requests')
 BXI=platform.architecture()[0]
 if BXI=="32bit":
